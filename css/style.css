@@ -2,11 +2,11 @@
     --header-text-color: #FFFFFF;
     --body-text-color: #323232;
     --body-secondary-text-color: #000000;
-    --bytton---accent-color: #2196f3;
+    --bytton---accent-color: #4985FF;
 }
 
 body{
-    font-family: 'Roboto', sans-selif;
+    font-family: 'Montserrat', sans-selif;
     background-color: #000000;
 }
 
@@ -14,11 +14,15 @@ a{
     color: var(--header-text-color);
     text-emphasis: none;
 }
-
+/* head */
 ul{
     list-style-type: none;
     padding: 0;
     margin: 0;
+}
+
+h1 h2 h3 h4 h5 h6{
+    font-weight: 600;
 }
 
 .container{
@@ -50,4 +54,39 @@ justify-content: center;
 .header__list{
     display: flex;
     gap: 30px;
+}
+.otp{
+    width: 200px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 30px;
+background: var(--bytton---accent-color);
+box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.25);
+}
+
+
+/* wecome */
+
+.main {
+
+}
+.welcome_stydia {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+color: var(--header-text-color);
+}
+.welcome__title{
+    width: 829px;
+height: 111px;
+flex-shrink: 0;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 134.09%;
+    letter-spacing: 0em;
+    color: var(--header-text-color);
 }
